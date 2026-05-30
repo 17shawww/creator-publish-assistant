@@ -28,7 +28,7 @@ export function PreviewSection({ previews, hasContent, hasSelectedPlatforms }: P
   }
 
   return (
-    <section className="grid gap-4 xl:grid-cols-2">
+    <section className="grid gap-4 lg:grid-cols-2">
       {previews.map((preview) => (
         <PreviewCard key={preview.platformId} preview={preview} />
       ))}
